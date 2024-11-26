@@ -237,9 +237,9 @@
                 int menny = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Mennyi legyen az új terméknek az ára?");
                 int ar = Convert.ToInt32(Console.ReadLine());
-                raktar[raktar.Length] = nev;
-                raktarKeszlet[raktar.Length] = menny;
-                raktarAr[raktar.Length] = ar;
+                raktar.Append(nev);
+                raktarKeszlet.Append(menny);
+                raktarAr.Append(ar);
 
             }
             else
